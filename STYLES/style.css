@@ -9,6 +9,7 @@
 
 }
 
+
 body{
     height: 100vh;
 
@@ -26,3 +27,49 @@ header{
     box-shadow: inset 0 0 60px black;
     
 }
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+/* .container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.bubbles{
+    z-index: -1000;
+    
+    position: relative;
+    display: flex;
+}
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(110, 162, 230);
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(69, 121, 180, 0.5),
+    0 0 50px rgb(40, 186, 206),
+    0 0 100px rgb(126, 201, 231);
+
+    animation: animate 15s linear infinite;
+    animation-duration: calc(80s / var(--i));
+}
+.bubbles span:nth-child(even){
+    background-color: rgb(218, 47, 132);
+    
+    box-shadow: 0 0 0 10px rgba(180, 69, 143, 0.5),
+    0 0 50px rgb(221, 42, 87),
+    0 0 100px rgb(231, 126, 175);
+}
+@keyframes animate{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+} */
