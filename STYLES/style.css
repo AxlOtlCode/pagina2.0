@@ -16,8 +16,8 @@ body{
     text-align: center;
 
     
-    background: linear-gradient(168deg, rgb(79, 152, 170) 0%, rgb(53, 19, 71) 100%);
-    box-shadow: inset 0 0 190px rgb(9, 2, 17) , inset 0 0 90px rgb(29, 2, 21);
+    background: linear-gradient(168deg, rgb(84, 95, 109) 0%, rgb(21, 22, 27) 100%);
+    box-shadow: inset 0 0 190px rgb(0, 0, 0) , inset 0 0 90px rgb(3, 3, 3);
 }
 header{
     background-color: red;
@@ -26,10 +26,25 @@ header{
     background-color: rgba(0, 0, 0, 0.397);
     box-shadow: inset 0 0 60px black;
     
+    background-image: url(/IMAGES/2023-05-14_18.10.00.png);
+    background-size: 100%;
+    background-position: -50%;
+    background-repeat: no-repeat;
 }
 h1{
     font-family: 'Press Start 2P', cursive;
     color: white;
+
+    text-shadow: 0 5px 4px  black;
+}
+
+main{
+    margin: 10px;
+    padding: 10px 10px;
+
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.397);
+    box-shadow: inset 0 0 60px black, 0 5px 5px 5px rgba(15, 19, 24, 0.555);
 }
 /* .container{
     position: relative;
